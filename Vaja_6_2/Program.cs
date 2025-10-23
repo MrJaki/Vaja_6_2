@@ -14,6 +14,10 @@ namespace Vaja_6_2
             trikotnik.NastaviStranice(6, 8, 10); // Nastavimo stranice a=6, b=8, c=10
             double ploscina = trikotnik.Ploscina(); // Izračunamo ploščino
             Console.WriteLine("Ploščina trikotnika je: " + ploscina); // Izpišemo ploščino
+
+            Krog k = new Krog(6);
+
+            Console.WriteLine(k.Ploscina());
         }
     }
 }
