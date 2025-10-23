@@ -16,14 +16,14 @@
 
 		public double Ploscina()
 		{
-			const int pi = 3,14;
-			int obseg = 2 * pi * r;
+			const double pi = 3.14;
+			double obseg = 2 * pi * r;
 			return obseg;
 		}
 
 		public double Obseg()
 		{
-			const int pi = 3,14;
+			const double pi = 3.14;
 			return (pi * (r * r));
 		}
 	}
